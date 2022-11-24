@@ -4,21 +4,17 @@ public class Main {
         Scanner input =new Scanner(System.in);
         double pear, apple, tomatoes, banana, eggplant;
         System.out.print("pear kg : ");
-        pear = input.nextDouble();
+        pear = input.nextDouble() * 2.14;
         System.out.print("apple kg : ");
-        apple = input.nextDouble();
+        apple = input.nextDouble() * 3.67;
         System.out.print("tomatoes kg : ");
-        tomatoes = input.nextDouble();
+        tomatoes = input.nextDouble() * 1.11;
         System.out.print("banana kg : ");
-        banana = input.nextDouble();
+        banana = input.nextDouble() * 1.95;
         System.out.print("eggplant kg : ");
-        eggplant = input.nextDouble();
+        eggplant = input.nextDouble() * 5;
 
-
-
-
-
-        double total = pear * 2.14 + apple * 3.67 + tomatoes * 1.11 + banana * 1.95 + eggplant * 5;
+        double total = pear + apple  + tomatoes  + banana  + eggplant ;
         System.out.println(" Total : " + total);
 
     }
